@@ -25,6 +25,11 @@ SMTP_USER=
 SMTP_PASS=
 SMTP_DOMAIN=
 
+# AWS SNS
+# Topic that SES bounce/complaint notifications arrive on. Optional: when set,
+# POST /api/aws_ses/notification accepts signed messages only from this topic.
+AWS_SNS_TOPIC_ARN=
+
 # Facebook
 FACEBOOK_APP_ID=
 FACEBOOK_APP_SECRET=

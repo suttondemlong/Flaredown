@@ -2,8 +2,6 @@
 # Remove from this list as you refactor files.
 ---
 ignore:
-- app/controllers/api/v1/aws_ses_controller.rb:
-  - Security/Open
 - app/controllers/api/v1/profiles_controller.rb:
   - Style/SafeNavigation
 - app/controllers/api/v1/sessions_controller.rb:
